@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family= Righteous & family= Sarala & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Ubuntu :ital,wght@1,300 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: radial-gradient(circle, rgb(224, 231, 242) 0%, rgb(214, 224, 240) 100%);
+}
+
+.cabecalho {
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30;
+    gap: 32px;
+}
+
+.cabecalho-logoiris {
+    height: 400px;
+}
+
+.cabecalho-titulo {
+    font-family: 'Sarala', impact;
+    color: #2e3191;
+    font-size: 60px;
+    font-weight: 400;
+
+}
+
+.cabecalho-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    color: #5e6c7b;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30;
+    text-align: center;
+}
+
+.conteudo-titulo {
+    border-top: 0.4px solid #a4a1a1a4;
+    padding: 20px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #4f5757;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.conteudo-paragrafo1 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+    margin-right: 100px;
+    color: #6f8785;
+    font-size: 40px;
+    text-align: center;
+}
+
+.conteudo-tituloStudio {
+    border-top: 0.4px solid #a4a1a1a4;
+    font-family: 'Sarala', sans-serif;
+    font-size: 60px;
+    color: #25b4a9;
+    margin-top: 70px;
+    padding: 20px;
+}
+ 
+.conteudo-paragrafo2, 
+.conteudo-paragrafo3, 
+.conteudo-paragrafo4, 
+.conteudo-paragrafo5{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    color: #525f6d;
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-bottom: 5px;
+    margin-right: 100px;
+}
+
+.conteudo-studioIRIS {
+    height: 700px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 350px;
+    margin-bottom: 5px;
+    margin-right: 100px;
+}
+
+.conteudo-h5 {
+    font-family: 'Sarala', sans-serif;
+    font-size: 40px;
+    color: #207f77;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-bottom: 5px;
+    margin-right: 100px;
+}
+
+.conteudo-tituloExemplos {
+    border-top: 0.4px solid #a4a1a1a4;
+    font-family: 'Sarala', sans-serif;
+    font-size: 60px;
+    color: #25b4a9;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.conteudo-h4-java, 
+.conteudo-h4-cos {
+    font-family: 'Sarala', sans-serif;
+    font-size: 50px;
+    color: #818787;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-bottom: 5px;
+    margin-right: 100px;
+}
+
+.exjava {
+    height: 700px;
+}
+
+.excos {
+    height: 700px;
+}
+
+.rodape {
+    border-top: 0.4px solid #a4a1a1a4;
+    margin-top: 70px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.rodape-ancora {
+    font-family: 'Sarala', sans-serif;
+    font-size: 35px;
+}

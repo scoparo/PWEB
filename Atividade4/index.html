@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao InterSystems Iris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho-titulo">Introdução à programação InterSystems IRIS</h1>
+        <h2 class="cabecalho-subtitulo">Conheça o InterSystems IRIS, um banco de dados orientado a objetos integrado a uma 
+                                        linguagem de programação única!</h2>
+        <img class="cabecalho-logoiris" src="img/logoiris.png" alt="logo iris">
+    </header>
+    <main class="conteudo">
+        <section>
+            <h2 class="conteudo-titulo">O que é o InterSystems IRIS?</h2>
+            <p class="conteudo-paragrafo1">É um banco de dados orientado a objetos com uma linguagem de programação de uso geral integrada, 
+                sendo capaz de fornecer suporte a vários processos e controle de simultaneidade. Quando utilizamos sua versão para desenvolvimento, 
+                podemos notar quão versátil essa ferramenta é. Ao clicar em seu ícone, que fica na Barra de Tarefas podemos observar diversas 
+                funcionalidades, como o terminal, o Portal de Administração e o ambiente de programação Studio!</p>
+        </section>
+        <section>
+            <h3 class="conteudo-tituloStudio">Ambiente de Programação Studio:</h3>
+            <p class="conteudo-paragrafo2">Uma IDE que fornece todas as funcionalidades necessárias para o desenvolvimento em Caché Object Script (COS).</p>
+            <img class="conteudo-studioIRIS" src="img/studioIRIS.png" alt="studio IRIS">
+            <p class="conteudo-paragrafo3">No Iris, é possível escrever rotinas e/ou classes. As classes fornecem recursos orientado a objetos, mas é possível
+                chamar uma classe de uma rotina, chamar uma rotina de uma classe, usar um método em uma rotina, criar objetos em rotinas... 
+                enfim, podemos utilizar ambos os conceitos de programação - estruturada e orientação a objetos - de forma intercambiável.
+                Além disso, podemos utilizar o InterSystemsSQL incorporado no código para acessar dados do banco e utilizá-los em rotinas ou classes.</p>
+            <h5 class="conteudo-h5">Mas como isso é possível?</h5>
+            <p class="conteudo-paragrafo4">Isso é possível pois todos os dados no banco de dados Iris são armazenados em uma variável especial
+                que podemos pensar como arrays esparsos (pois seus subscritos não precisam ser contíguos), multidimensionais (pois os nós em um global podem ter
+                qualquer número de subscritos) e persistentes (são armazenados diretamente no banco de dados e podem ser recuperado a qualquer momento por
+                qualquer processo.). Sendo assim, podemos acessar os dados utilizando qualquer paradigma que desejarmos!</p>
+            <p class="conteudo-paragrafo5">Além disso, existe uma variedade de biliotecas que contém
+                diversas classes que facilitam diversos processos, como a de integração de sistemas, por exemplo.</p>
+        </section>
+        <section>
+            <h3 class="conteudo-tituloExemplos">Código em Java X Código em COS</h3>
+            <h4 class="conteudo-h4-java">Java:</h4>
+            <img class="exjava" src="img/exjava.png" alt="ex java">
+            <h4 class="conteudo-h4-cos">Caché Object Script:</h4>
+            <img class="excos" src="img/excos.png" alt="ex cos">
+        </section>
+        <section>
+
+        </section>
+    </main>
+    <footer class="rodape">
+        <img class="rodape-logo" src="img/logo2.png" alt="logo rodape">
+        <a class="rodape-ancora" href="https://docs.intersystems.com/">Documentação Intersystems IRIS</a>
+    </footer>
+</body>
+</html>
