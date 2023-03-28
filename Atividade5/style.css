@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2? family= Nanum+Myeongjo & family= Ubuntu:ital,wght@1,300 & display=swap');
+
+body {
+    background-color: rgb(34, 44, 44);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.cabecalho-escrito-titulo {
+    font-family: 'Nanum Myeongjo', serif;
+    color: #bda131;
+    font-size: 70px;
+    margin-top: 40px;
+}
+
+.cabecalho-escrito-subtitulo {
+    color: #98968c;
+    font-family: 'Nanum Myeongjo', sans-serif;
+    font-size: 30px;
+}
+
+.conteudo {
+    border-top: 0.4px solid #bda13144;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-hobbits-titulo {
+    padding: 30px;
+    color: #bda131;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 50px;
+}
+
+.conteudo-hobbits-p1,
+.conteudo-hobbits-p2,
+.conteudo-hobbits-p3 {
+    font-family: 'Nanum Myeongjo', sans-serif;
+    color: #98968c;
+    font-size: 25px;
+}
+
+.conteudo-hobbits-flexcontainer {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.conteudo-elfos-titulo {
+    border-top: 0.4px solid #bda13144;
+    padding: 30px;
+    color: #bda131;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 50px;
+}
+
+.conteudo-elfos-p1 {
+    font-family: 'Nanum Myeongjo', sans-serif;
+    color: #98968c;
+    font-size: 25px;
+}
+
+.conteudo-elfos-flexcontainer {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.conteudo-anoes-titulo {
+    border-top: 0.4px solid #bda13144;
+    padding: 30px;
+    color: #bda131;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 50px;
+}
+
+.conteudo-anoes-p1 {
+    font-family: 'Nanum Myeongjo', sans-serif;
+    color: #98968c;
+    font-size: 25px;
+}
+
+.conteudo-anoes-flexcontainer {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
