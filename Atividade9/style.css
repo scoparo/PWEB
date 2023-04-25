@@ -1,0 +1,42 @@
+body {
+  padding: 100px;
+  background: #CCC;
+}
+
+.funcoes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.maiorNumero {
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.maiorNumero input {
+    width: 90px;
+    height: 30px;
+}
+
+.ordernarNum {
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ordernarNum input {
+  width: 90px;
+  height: 30px;
+}
