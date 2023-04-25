@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pesquisa</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <main>
+        <div class="formClass">
+            <h2>Pesquisa de opinião:</h2>   
+            <form>
+                Idade:<input type="number" id="idade" max="120" min="1">
+                <br>
+                Sexo:<input type="radio" id="feminino" name="sexo" value="feminino">
+                <label>Feminino</label>
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                <label>Masculino</label>
+                <br>
+                
+                Avaliação:<select id="avaliacao">
+                    <option value="4">Ótimo</option>
+                    <option value="3">Bom</option>
+                    <option value="2">Regular</option>
+                    <option value="1">Péssimo</option>
+                </select>
+                <br>
+                <input onclick="gravarPesquisa()" type="button" value="Enviar" id="enviar"> 
+            </form>
+        </div>
+    
+        <div class="resultado">
+            <input onclick="mostrarResultados()" type="button" value="Resultado" id="resultado">
+
+            <p id="mediaIdade"></p>
+            <p id="pessoaMaisVelha"></p>
+            <p id="pessoaMaisNova"></p>
+            <p id="qntPessimos"></p>
+            <p id="qntOtimos"></p>
+            <p id="qntMulheres"></p>
+            <p id="qntHomens"></p>
+        </div>
+    </main>
+</body>
+
+</html>
