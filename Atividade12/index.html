@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atividade 12</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="textoJanela">Janela Fechada</h1>
+    <img src="img/janelafechada.png" onmouseover="abrirJanela()" onmouseout="fecharJanela()" onclick="quebrarJanela()">
+    
+    <script type="text/javascript">
+
+        function abrirJanela() {
+            event.target.src = "img/janelaaberta.png"
+            document.getElementById('textoJanela').innerHTML = "Janela aberta"
+        }
+        
+        function fecharJanela() {
+            event.target.src = "img/janelafechada.png"
+            document.getElementById('textoJanela').innerHTML = "Janela fechada"
+        }
+
+        function quebrarJanela() {
+            event.target.src = "img/janelaquebra.png"
+            document.getElementById('textoJanela').innerHTML = "Janela quebrada"
+        }
+    </script>
+</body>
+</html>
