@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(165, 184, 228);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid rgba(86, 80, 80, 0.275);;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(86, 80, 80);
+}
+
+main {
+    padding: 50px;
+}
+
+#lSelect {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(86, 80, 80);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cursos {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(86, 80, 80);
+}
